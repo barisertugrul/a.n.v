@@ -61,4 +61,8 @@ public class Ogrenci {
 	public void setOgrenciEmail(String ogrenciEmail) {
 		this.ogrenciEmail = ogrenciEmail;
 	}
+	
+	public void yorumYap() {
+		
+	}
 }

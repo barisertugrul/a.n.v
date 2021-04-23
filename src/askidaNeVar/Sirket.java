@@ -24,4 +24,8 @@ public class Sirket {
 	public void setAdi(String adi) {
 		this.adi = adi;
 	}
+	
+	public void bagisYap() {
+		
+	}
 }

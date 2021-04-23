@@ -26,13 +26,13 @@ public class Aski {
 	}
 	
 	private List<Integer> ciftleriBul(int[] commentsArray, int[] likesArray) {
-		int[] ciftler= {};
+		//int[] ciftler= {};
 		ArrayList<Integer> cift = new ArrayList<>();
 		Arrays.sort(likesArray);
 		for(int comment:commentsArray) {
 			if(Arrays.binarySearch(likesArray,comment) > -1) {
-				ciftler = Arrays.copyOf(ciftler, ciftler.length + 1);
-				ciftler[ciftler.length-1] = comment;
+				//ciftler = Arrays.copyOf(ciftler, ciftler.length + 1);
+				//ciftler[ciftler.length-1] = comment;
 				cift.add(comment);
 			}
 		}

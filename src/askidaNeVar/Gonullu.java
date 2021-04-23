@@ -25,5 +25,9 @@ public class Gonullu {
 		this.adi = adi;
 	}
 	
+	public void bagisYap() {
+		
+	}
+	
 	
 }
